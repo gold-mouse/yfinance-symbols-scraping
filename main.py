@@ -29,7 +29,7 @@ def create_driver():
 
 def scrape_most_actives():
     base_url = "https://finance.yahoo.com/research-hub/screener/most_actives/?start={}&count=25"
-    start = 50025
+    start = 0
     results = []
     max_retries = 3
     retries = 0
